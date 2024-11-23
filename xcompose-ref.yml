@@ -1,0 +1,11 @@
+services:
+  nodejs: 
+    build: .
+    ports:
+      - 5000:5000
+    volumes:
+    - ./src:/app/src:ro
+    env_file:
+      ./.env
+
+

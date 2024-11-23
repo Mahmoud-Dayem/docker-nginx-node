@@ -1,0 +1,8 @@
+services:
+  nodejs: 
+    environment:
+    - NODE_ENV= production  
+    build:
+      context: .
+      target: production
+

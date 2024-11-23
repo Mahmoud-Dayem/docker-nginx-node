@@ -1,0 +1,17 @@
+services:
+   nodejs: 
+    build: 
+      target: development
+      context: .
+
+    environment:
+     - NODE_ENV= development
+    volumes:
+      - ./src:/app/src:ro 
+     
+    env_file:
+      ./.env  
+
+
+  
+
