@@ -40,6 +40,6 @@ const value = await client.get('name').then();
 console.log('KEY is ' , value);
 // await client.disconnect();
 app.get('/',(req,res)=>{
-    res.send('<h1>Mahmoud AbdelDayem</h1>')
+    res.send('<h1>Welcome - Mahmoud AbdelDayem</h1>')
 })
 
